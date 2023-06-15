@@ -15,7 +15,7 @@ export const usersApiSlice = apiSlice.injectEndpoints({
       },
       keepUnusedDataFor: 5, //Might need to keep it longer in production, 60sec
       transformResponse: responseData => {
-        //get response from the query
+        //responseData: get response from the query
         const loadedUsers = responseData.map(user => {
           user.id = user._id
           return user
