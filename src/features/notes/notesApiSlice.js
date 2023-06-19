@@ -30,7 +30,8 @@ export const notesApiSlice = apiSlice.injectEndpoints({
           ]
         } else return [{ type: 'note', id: 'LIST' }]
       }
-    })
+    }),
+    
   })
 })
 
