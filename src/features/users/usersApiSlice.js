@@ -12,7 +12,6 @@ export const usersApiSlice = apiSlice.injectEndpoints({
       validateStatus: (response, result) => {
         return response.status === 200 && !result.isError
       },
-      keepUnusedDataFor: 60, //Might need to keep it longer in production, 60sec
       transformResponse: responseData => {
         //responseData: get response from the query
         const loadedUsers = responseData.map(user => {
