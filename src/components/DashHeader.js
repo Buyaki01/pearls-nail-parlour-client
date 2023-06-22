@@ -11,7 +11,6 @@ const USERS_REGEX = /^\/dash\/users(\/)?$/
 const DashHeader = () => {
   const navigate = useNavigate()
   const { pathname } = useLocation()
-  console.log(pathname)
 
   const [sendLogout, {
     isLoading,

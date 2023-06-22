@@ -68,7 +68,7 @@ const Login = () => {
             className="form__input"
             type="text"
             id="username"
-            ref={useRef}
+            ref={userRef}
             value={username}
             onChange={handleUserInput}
             autoComplete="off"
