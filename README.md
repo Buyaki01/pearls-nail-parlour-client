@@ -59,8 +59,6 @@ npm start
 
 - Linkedin: [@ritta-sweta](https://www.linkedin.com/in/ritta-sweta/)
 - Github: [@Buyaki01](https://github.com/Buyaki01)
-- Twitter: [@BuyakiRitta](https://twitter.com/BuyakiRitta)
-
 
 ## 🤝 Contributing
 
@@ -73,7 +71,7 @@ Feel free to check the [issues page](https://github.com/Buyaki01/tech-notes-clie
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Inspiration: [@gitdagray](https://github.com/gitdagray)
+- Inspiration: [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode)
 
 ## 📝 License
 
