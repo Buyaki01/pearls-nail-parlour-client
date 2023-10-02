@@ -1,6 +1,6 @@
-# pearls-nail-parlour-client
+# Pearls Nail Parlour Client
 
-> This is the frontend of a MERN application that is designed to streamline the workflow of nail artists and to reduce manual scheduling. 
+> This is the frontend of a MERN application that is designed to streamline the workflow of nail artists and to reduce manual scheduling within a company. 
 
 ## Functionality
 The application currently has three employee statuses and one cannot access the app if they are not added by either the admin or the manager of the company.
