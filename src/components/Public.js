@@ -4,18 +4,17 @@ const Public = () => {
   const content = (
     <section className="public">
       <header>
-          <h1>Welcome to <span className="nowrap">Dan D. Repairs!</span></h1>
+          <h1>Welcome to <span className="nowrap">Pearls Nails Parlor!</span></h1>
       </header>
       <main className="public__main">
-          <p>Located in Beautiful Downtown Foo City, Dan D. Repairs  provides a trained staff ready to meet your tech repair needs.</p>
+          <p>Located in Nairobi City, Pearls Nails Parlor provides a range of professional nail care and beauty services.</p>
           <address className="public__addr">
-              Dan D. Repairs<br />
-              555 Foo Drive<br />
-              Foo City, CA 12345<br />
-              <a href="tel:+15555555555">(555) 555-5555</a>
+          Pearls Nails Parlor<br />
+              Nairobi City<br />
+              <a href="tel:+254 722554294">(+254) 722-554-294</a>
           </address>
           <br />
-          <p>Owner: Dan Davidson</p>
+          <p>Owner: Ritta Sweta</p>
       </main>
       <footer>
           <Link to="/login">Employee Login</Link>

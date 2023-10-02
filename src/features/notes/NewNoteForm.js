@@ -60,7 +60,7 @@ const NewNoteForm = ({ users }) => {
 
             <form className="form" onSubmit={onSaveNoteClicked}>
                 <div className="form__title-row">
-                    <h2>New Note</h2>
+                    <h2>New Nail Technician Note</h2>
                     <div className="form__action-buttons">
                         <button
                             className="icon-button"
