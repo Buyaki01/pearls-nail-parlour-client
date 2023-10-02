@@ -1,13 +1,31 @@
-# tech-notes-client
+# pearls-nail-parlour-client
 
-> This is the frontend of a MERN application that is designed to streamline the workflow of computer technicians. Say goodbye to traditional sticky notes and embrace a more organized and efficient approach to managing tasks related to computer repairs
+> This is the frontend of a MERN application that is designed to streamline the workflow of nail artists and to reduce manual scheduling. 
 
-> With this app, technicians can easily create and manage tickets for each computer brought in by clients. Instead of jotting down notes on a piece of paper, technicians can quickly enter the necessary details directly into the app. This ensures that important information about the required repairs or tasks is captured accurately and eliminates the risk of losing or misplacing handwritten notes
+## Functionality
+The application currently has three employee statuses and one cannot access the app if they are not added by either the admin or the manager of the company.
 
-> I believe that by using this app, technicians can enhance their productivity, improve customer service, and ensure a more organized approach to managing computer repair tasks
+### Admin:
+- Can view, edit, delete any of the nail artist's notes
+- Can add new notes and assign tasks to any nail artist
+- Can view, edit, delete employee user settings
+- Can add employees to the application
+- Employees not added by the Admin cannot access the app
+
+### Manager:
+- Similar privileges to the Admin.
+- Can view, edit, delete any of the nail artist's notes
+- Can add new notes and assign tasks to any nail artist
+- Can view, edit, delete employee user settings
+- Can add employees to the application
+- Employees not added by the Manager cannot access the app
+
+### Employee:
+- Can only view, create, and edit their own notes
+- Cannot delete their own notes
 
 ## Link to the backend
-[Tech Notes Backend](https://github.com/Buyaki01/tech-notes-server)
+[Pearls Nail Parlour Backend](https://github.com/Buyaki01/pearls-nail-parlour-server)
 
 ## Built With
 
@@ -36,9 +54,9 @@ To get a local copy up and running follow these simple example steps.
 - Clone the project
 
 ```bash 
-git clone git@github.com:Buyaki01/tech-notes-client.git
+git clone git@github.com:Buyaki01/pearls-nail-parlour-client.git
 
-cd tech-notes-client
+cd pearls-nail-parlour-client
 ```
 
 - Install dependencies
@@ -64,7 +82,7 @@ npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Buyaki01/tech-notes-client/issues).
+Feel free to check the [issues page](https://github.com/Buyaki01/pearls-nail-parlour-client/issues).
 
 ## Show your support
 

@@ -4,12 +4,12 @@ const Public = () => {
   const content = (
     <section className="public">
       <header>
-          <h1>Welcome to <span className="nowrap">Pearls Nails Parlor!</span></h1>
+          <h1>Welcome to <span className="nowrap">Pearls Nails Parlour!</span></h1>
       </header>
       <main className="public__main">
-          <p>Located in Nairobi City, Pearls Nails Parlor provides a range of professional nail care and beauty services.</p>
+          <p>Located in Nairobi City, Pearls Nails Parlour provides a range of professional nail care and beauty services.</p>
           <address className="public__addr">
-          Pearls Nails Parlor<br />
+          Pearls Nails Parlour<br />
               Nairobi City<br />
               <a href="tel:+254 722554294">(+254) 722-554-294</a>
           </address>
